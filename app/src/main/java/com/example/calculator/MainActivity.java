@@ -25,7 +25,7 @@ import java.util.concurrent.TimeoutException;
 
 public class MainActivity extends AppCompatActivity {
     //Declare the widgets to be used
-    Button btnAC, btnDel, btnRightBracket, btnLeftBracket, btnSeven, btnEight, btnNine, btnPlus, btnFour, btnFive, btnSix, btnMinus, btnOne, btnTwo, btnThree, btnMultiply, btnDecimal, btnZero, btnEquals, btnDivide, btnExponent, btnTan, btnCos, btnSin;
+    Button btnAC, btnDel, btnRightBracketBracket, btnLeftBracket, btnSeven, btnEight, btnNine, btnPlus, btnFour, btnFive, btnSix, btnMinus, btnOne, btnTwo, btnThree, btnMultiply, btnDecimal, btnZero, btnEquals, btnDivide, btnExponent, btnTan, btnCos, btnSin;
     TextView txtExpression, txtPrecision, txtResult, txtDuration;
 
     String precision, expression;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         ///Instantiating the widgets
         btnAC = (Button) findViewById(R.id.btnAC);
         btnDel = (Button) findViewById(R.id.btnDel);
-        btnRightBracket = (Button) findViewById(R.id.btnRight);
+        btnRightBracketBracket = (Button) findViewById(R.id.btnRightBracket);
         btnLeftBracket = (Button) findViewById(R.id.btnleftBracket);
         btnSeven = (Button) findViewById(R.id.btnSeven);
         btnSix = (Button) findViewById(R.id.btnSix);
